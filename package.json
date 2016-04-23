@@ -1,0 +1,13 @@
+{
+  "name": "mapbox-gl-idris",
+  "version": "1.0.0",
+  "description": "",
+  "main": "filter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_node": "idris --codegen Node --idrispath ./src src/main.idr -o dist/main.js",
+    "run": "npm run build_node && node dist/main.js"
+  },
+  "author": "Alexander Noriega",
+  "license": "ISC"
+}
